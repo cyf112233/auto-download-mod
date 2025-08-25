@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "autodown",
+  "version": "${version}",
+  "name": "autodown",
+  "description": "",
+  "authors": ["cxkcxkckx"],
+  "contact": {
+    "repo": "https://github.com/cxkcxkckx/autodown"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/autodown/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "byd.cxkcxkckx.autodown.AutoDownMod"
+    ],
+    "client": [
+      "byd.cxkcxkckx.autodown.AutoDownClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.16"
+  }
+}
